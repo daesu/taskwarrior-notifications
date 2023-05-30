@@ -23,9 +23,10 @@ cat > $tmp_email <<EOF
 From: The Task List <$sendto> 
 To: $sendto
 Subject: Daily Task Email
-MIME-Version: 1.0
-Content-Type: text/html
-Content-Disposition: inline
+MIME-Version: 1.0;
+Content-Type: text/html;
+Content-Disposition: inline; 
+
 EOF
 
 #pump the task information into the email
